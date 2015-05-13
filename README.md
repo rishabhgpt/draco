@@ -8,9 +8,9 @@ An Android app to analyse unknown apks and categorise them as benign or malware 
 
 ```
 
-- *D 1* Requested Permissions
-- *D 2* Hardware Components
-- *D 3* Intent filters
+- D 1 Requested Permissions
+- D 2 Hardware Components
+- D 3 Intent filters
 
 ```
 
@@ -18,8 +18,8 @@ An Android app to analyse unknown apks and categorise them as benign or malware 
 
 ```
 
-- *D 4* Used Permissions
-- *D 5* Suspicious API calls
+- D 4 Used Permissions
+- D 5 Suspicious API calls
 
 ```
 
