@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="choices_array">
+        <item>Permissions</item>
+        <item>Activities</item>
+        <item>Broadcast Receivers</item>
+        <item>Intents</item>
+        <item>Services</item>
+    </string-array>
+</resources>

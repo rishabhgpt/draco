@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <!-- The main content view -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/main1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:text="Choose APK File"
+            android:background="@color/abc_search_url_text_normal"
+            android:id="@+id/chooser"
+            />
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textSize="17dp"
+            android:layout_gravity="center"
+            android:textColor="#080807"
+            android:text="Result of Analysis will be Shown Here"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:textColor="#080807"
+            android:text="Toggle Spinner to view Components Used by App"/>
+
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:id="@+id/choice"
+            android:background="@color/accent_material_dark"
+            >
+
+        </Spinner>
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:id="@+id/items"
+            android:layout_marginTop="10dp"
+            ></ListView>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload file"
+            android:id="@+id/uploadButton"
+            android:background="@color/abc_search_url_text_normal"/>
+</LinearLayout>

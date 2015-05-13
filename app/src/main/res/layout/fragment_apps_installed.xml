@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent" tools:context="org.droidanalyst.app.AppsInstalled">
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:textSize="17dp"
+        android:layout_gravity="center"
+        android:textColor="@color/abc_search_url_text_normal"
+        android:text="Choose App to Analyse"/>
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/apps"
+        android:layout_marginTop="10dp"
+        ></ListView>
+</LinearLayout>
